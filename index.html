@@ -5,9 +5,11 @@
     <title>Ben Kurose's Personal Website</title>
   </head>
   <body>
-    <div id="nameDiv">Ben Kurose</div>
+    <script src="index.js"></script>
+    <div id="nameDiv">Ben Kurose
+    </div>
     <div id="occupationDiv">
-      A Software Engineering Student
+      Software Engineering Student
       <a href="https://www.facebook.com/ben.kurose/">
         <img
           id="fbLogo"
@@ -40,19 +42,24 @@
     </a>
     </div>
     <p>
-      <img
-        id="profilePic"
+      <input 
+        id="clickPic"
+        type="image"
         src="https://scontent-bos5-1.xx.fbcdn.net/v/t31.18172-8/12248064_10156315028945094_5748169524246906649_o.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=NL2VG1kNaZAAX9z2CJE&_nc_ht=scontent-bos5-1.xx&oh=00_AT-k9DBxvHRfYtbgTCkVMEkXt5acjvR_uGajZfhRtzSrDA&oe=6308DE79"
         alt="opps broken image!"
         title="What a handsome guy!"
         width="400px"
         height="400px"
-      />
+      >
     </p>
-    <h2>A litte about me:</h2>
-    <p>
-      "I'm pretty new to software engineering but I have been learning a lot in the pre-work section of my course, enough to build the simple website you are viewing right now! I'm originally from the little state of Rhode Island."
+    <h2>A little about me:</h2>
+    <p id="bio">
+      I'm pretty new to software engineering but I have been learning a lot in the pre-work section of my course, enough to build the simple website you are viewing right now! I was a full-time boroscilicate glassblower for a few years before the pandemic started. Now I'm a full-time student at the FlatIron School, hoping to learn a new skill and launch a lucrative and exciting career!
     </p>
-    <script src="script.js"></script>
+    <ul>
+      <li><b>Originally From:</b> Rhode Island</li>
+      <li><b>Favorite Sport:</b> Swimming</li>
+      <li><b>Favorite Programming Language:</b> JavaScript</li>
+    </ul>
   </body>
 </html>

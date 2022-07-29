@@ -1,5 +1,7 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+const input = document.getElementsById("clickPic");
 
-document.querySelector("body").appendChild(h2);
+function clickAlert() {
+    alert(message: 'I was clicked!');
+}
 
+input.addEventListener('click', clickAlert);
