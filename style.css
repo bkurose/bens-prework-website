@@ -1,7 +1,8 @@
 body {
   background: lightgrey;
 }
-div {
+div#nameDiv {
+  font-size: 45pt;
   margin-left: auto;
   margin-right: auto;
   max-width: 1000px;
@@ -9,17 +10,28 @@ div {
   text-align: left;
   background-color: lightblue;
 }
-div#nameDiv {
-  font-size: 30pt;
-}
 div#occupationDiv {
-  font-size: 20pt;
+  font-size: 30pt;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  font-family: Arial;
+  text-align: left;
+  background-color: lightblue;
 }
 p {
   max-width: 1000px;
+  font-size: 15pt;
   margin-left: auto;
   margin-right: auto;
 }
-img {
+img#profilePic {
   float: left
 }
+a > img {
+  float: right;
+  margin-left: 10x;
+  margin-right: 10px;
+}
+
+
