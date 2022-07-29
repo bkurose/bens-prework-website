@@ -26,12 +26,14 @@ p {
   margin-right: auto;
 }
 img#profilePic {
-  float: left
+  float: left;
+  margin-right: 10px;
 }
 a > img {
   float: right;
   margin-left: 10x;
   margin-right: 10px;
 }
+
 
 
